@@ -1,0 +1,32 @@
+# ===================================================================
+# REGRAS PARA PROJETO JAVA / MAVEN
+# ===================================================================
+
+# Pasta de build do Maven (A REGRA MAIS IMPORTANTE)
+# Ignora tudo que é gerado durante a compilação, incluindo o .jar final
+# e o dependency-reduced-pom.xml.
+target/
+
+# Arquivos de Log
+*.log
+logs/
+
+# Arquivos compilados do Java (geralmente já estão dentro de /target)
+*.class
+
+# Arquivos de configuração de IDEs (Editores de Código)
+# Para VS Code
+.vscode/
+# Para IntelliJ
+.idea/
+*.iml
+# Para Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos de sistema operacional
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
